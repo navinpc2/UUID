@@ -137,5 +137,12 @@ namespace UUIDTest
         {
             _uuid.FindLongestIncreasingSubsequence(InvalidInput);
         }
+
+        [TestMethod]
+        public void TestNullInput()
+        {
+            var output = _uuid.FindLongestIncreasingSubsequence(null);
+            Assert.AreEqual(output, string.Empty);
+        }
     }
 }
