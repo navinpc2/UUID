@@ -22,4 +22,4 @@ A solution named “UUID” has been created, with the following 3 projects:
 
 Naming convention:
 
-The word “UUID” has been used as name of this assignment. The word doesn’t have any particular meaning. The assignment had advised to use a UUID as repository name. I used the word UUID literally, for naming the solution. (However the repository name is a valid UUID, as advised).
+The word “UUID” has been used as name of this assignment. The word doesn’t have any special meaning. The assignment had advised to use a UUID as repository name. I used the word UUID literally, for naming the solution. (However the repository name is a valid UUID i.e. a universally unique identifier, as advised).
