@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using UUIDContract;
 using UUIDImplementation;
 
@@ -42,7 +43,10 @@ namespace UUIDTest
                 {"6 2 4 3 1 5 9", 
                     "1 5 9"},
             };
+
         IUUID _uuid;
+        const string NoExceptionMessage = "An invalid input was incorrectly allowed!";
+        const string InvalidInput = "12 hello 34";
         
         [TestInitialize]
         public void Initialize()
@@ -125,6 +129,13 @@ namespace UUIDTest
         {
             var output = _uuid.FindLongestIncreasingSubsequence(testData[10,0]);
             Assert.AreEqual(output, testData[10,1]);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException), NoExceptionMessage)]
+        public void TestArgumentException()
+        {
+            _uuid.FindLongestIncreasingSubsequence(InvalidInput);
         }
     }
 }
