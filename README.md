@@ -13,9 +13,12 @@ C# and .Net Framework 5.0
 Source code structure:
 
 A solution named “UUID” has been created, with the following 3 projects:
-1.UUIDTest - It contains Unit Test cases.
-2.UUIDContract - It contains interface of the logic to find longest increasing subsequence.
-3.UUIDImplementtion - It contains actual implementation of the logic.
+
+1. UUIDTest - It contains Unit Test cases.
+
+2. UUIDContract - It contains interface of the logic to find longest increasing subsequence.
+
+3. UUIDImplementtion - It contains actual implementation of the logic.
 
 Naming convention:
 
