@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UUIDContract\UUIDContract.csproj" />
+    <ProjectReference Include="..\UUIDImplementation\UUIDImplementation.csproj" />
   </ItemGroup>
 
 </Project>

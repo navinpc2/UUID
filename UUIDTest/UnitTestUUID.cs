@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UUIDContract;
+using UUIDImplementation;
 
 namespace UUIDTest
 {
@@ -46,7 +47,7 @@ namespace UUIDTest
         [TestInitialize]
         public void Initialize()
         {
-            _uuid = null;
+            _uuid = new UUID();
         }
 
         [TestMethod]
